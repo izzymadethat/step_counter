@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.content {
+    width: 100%;
+    max-width: 500px;
+    margin: 50% auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color:#e4e6e7;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.step-button {
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 1.1rem;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#title {
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+#step-msg  {
+    font-family: "Quicksand";
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+#upButton {
+    background: green;
+    color: white
+}
+
+#downButton {
+    background: red;
+    color: white;
+}
+
+.warningMsg {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: red;
+}
+
+.hidden {
+    display: none;
+}

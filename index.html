@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Step Counter</title>
+</head>
+<body>
+    <section>
+        <div class="content">
+            <h2 id="title">Step Counter</h2>
+            <div class="steps-buttons">
+                    <button class="step-button" id="upButton" onclick="increaseCount()">Click Me to Go Up</button>
+                    <button class="step-button" id="downButton" onclick="decreaseCount()">Click Me to Go Down</button>
+            </div>
+            <h4 id="step-msg">The step counter is at: <span id="counter">0</span></h4>
+            <div class="warningMsg hidden">
+                <h3 style="text-align:center; margin-top:15px;">Uh Oh!</h3>
+                <p>This counter doesn't go below zero!</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
